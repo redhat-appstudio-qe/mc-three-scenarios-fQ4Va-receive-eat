@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-docker-python-rhtap-three-component-scenarios-npe8
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-lwyu-tenant/mc-three-scenarios/devfile-docker-python-rhtap-three-component-scenarios-npe8@sha256:f1846e1079324a472a8f5ec09ec226a057f0f9fa0c4c72c92dc0aa433b2792b2
         name: my-python
         ports:
         - containerPort: 8081
